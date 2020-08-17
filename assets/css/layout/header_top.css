@@ -1,0 +1,62 @@
+.header_top{
+    border-bottom: 1px solid var(--secondary-color);
+}
+.contact_list{
+    float: left;
+}
+
+.socal_list{
+    float: right;
+}
+.header_top ul li{
+    display: inline-block;
+    padding: 17px 7px;
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: var(--fw-1);
+    font-family: var(--open-sans);
+}
+
+.header_top ul li i{
+    margin: 0px 3px 0px 0px;
+    color: var(--primary-color);
+}
+
+.socal_list a{
+    padding: 15px 10px;
+    color: var(--secondary-color);
+    transition: color .4s;
+}
+
+.socal_list a:hover{
+   color: var(--primary-color);
+}
+
+
+
+@media(max-width:780px){
+.contact_list{
+    float: none;
+}
+
+.contact_list ul{
+    text-align: center;
+}
+
+.socal_list{
+    float: none;
+    text-align: center;
+}
+
+
+}
+
+
+@media(max-width:575px){
+    .contact_list{
+        display: none;
+    }
+    .socal_list a{
+        margin-top: 10px;
+    }
+}

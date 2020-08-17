@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap');
+
+@import url("utils/variables.css");
+
+@import url("vendors/all.min.css");
+
+@import url("base/reset.css");
+@import url("base/typography.css");
+
+@import url("components/button.css");
+@import url("components/title.css");
+@import url("components/carouusel.css");
+@import url("components/cover.css");
+@import url("components/dropdown.css");
+
+@import url('layout/header_top.css');
+@import url('layout/banner.css');
+@import url('layout/cta.css');
+@import url('layout/about_us.css');
+@import url("layout/footer.css");
+@import url("layout/forms.css");
+@import url("layout/grid.css");
+@import url("layout/header.css");
+@import url("layout/navigatiion.css");
+@import url("layout/sidebar.css");
+
+@import url("pages/contact.css");
+@import url("pages/home.css");
+@import url("themes/admin.css");
+@import url("themes/theme.css");
+@import url("utils/functions.css");
+@import url("utils/helpers.css");
+@import url("utils/mixins.css");
+@import url("vendors/bootstrap.css");
+@import url("vendors/jquery-ui.css");

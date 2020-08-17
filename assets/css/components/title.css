@@ -1,0 +1,40 @@
+.titel{
+    text-align: center;
+    margin: 20px;
+}
+.titel h1{
+    font-family: var(--open-sans);
+    margin: 7px;
+    font-weight: var(--fw-2);
+}
+.title_separator{
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border: 2px solid #000;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+}
+
+.title_separator::before{
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    content: '';
+    display: block;
+    left: 20px;
+    background: var(--primary-color);
+    top: 1px;
+}
+
+.title_separator::after{
+    position: absolute;
+    height: 4px;
+    width: 100px;
+    content: '';
+    display: block;
+    right: 20px;
+    background:var(--primary-color);
+    top: 1px;
+}

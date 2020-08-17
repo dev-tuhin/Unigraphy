@@ -1,0 +1,113 @@
+.banner_part{
+    background: linear-gradient(to right bottom, rgba(0,0,0,.8), rgba(0,0,0,.8)) , url('./../../images/bannar-bg.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+}
+
+
+.banner_part h1{
+    font-family: var(--raleway);
+    text-align: center;
+}
+
+.banner_part h1 span:first-child{
+    color: var(--primary-color);
+    font-size: 100px;
+    font-weight: var(--fw-2);
+}
+
+.banner_part h1 span:last-child{
+    color: var(--white-color);
+    font-size: 75px;
+    font-weight: var(--fw-1);
+}
+
+.banner_part h3{
+    text-align: center;
+    color: var(--white-color);
+    letter-spacing: 9px;
+    font-weight: var(--fw-3);
+    font-size: 19px;
+    margin-top: 4px;
+    font-family: var(--raleway);
+}
+
+.banner_part p{
+    width: 600px;
+    text-align: center;
+    font-family: var(--open-sans);
+    font-weight: var(--fw-1);
+    color: var(--white-color);
+    line-height: 23px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.banner_part .dow{
+   font-family: var(--open-sans);
+   font-weight: var(--fw-1);
+   color: var(--white-color);
+   margin-top: 30px;
+   background: var(--primary-color);
+   padding: 12px 38px;
+   border-radius: 10px;
+   border: 1px solid var(--primary-color);
+   transition: color .4s;
+}
+
+.banner_part .dow:hover{
+    color: var(--primary-color);
+    background: var(--white-color);
+    
+}
+
+.banner_part .play{
+    color: var(--primary-color);
+    background: var(--white-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-left: 10px;
+}
+.banner_part .play:hover{
+    color: var(--white-color);
+    background: var(--primary-color);
+}
+
+@media(max-width: 667.99px){
+    .banner_part p{
+      width: 100%;
+    }
+}
+
+@media(max-width: 575.99px){
+    .banner_part h1 span:first-child{
+        font-size: 70px;
+    }
+    .banner_part h1 span:last-child{
+        font-size: 55px;
+    }
+}
+
+@media(max-width: 320.99px){
+    .banner_part h3{
+        letter-spacing: 6px;
+        font-size: 12px
+    }
+    .banner_part p{
+        font-size: 16px;
+    }
+    .banner_part .dow{
+        font-size: 12px;
+    }
+    .banner_part .play{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 15px;
+    }
+}

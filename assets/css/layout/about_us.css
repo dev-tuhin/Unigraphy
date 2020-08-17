@@ -1,0 +1,35 @@
+.about .company_photo{
+    width: 50%;
+    float: left;
+
+}
+
+.about .about_right{
+    width: 50%;
+    float: right;
+}
+
+.about_right .fast_1{
+    font-family: var(--open-sans);
+    font-size: 15px;
+    text-align: left;
+    line-height: 26px;
+    margin-top: 4px;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.about_right .last_1{
+    font-family: var(--open-sans);
+    font-size: 15px;
+    text-align: left;
+    line-height: 26px;
+    margin-top: 4px;
+    color: var(--secondary-color);
+    
+}
+
+.about_right_box > div{
+    width: 48%;
+    display: inline-block;
+}
