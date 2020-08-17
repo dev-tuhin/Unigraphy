@@ -7,6 +7,7 @@
 .about .about_right{
     width: 50%;
     float: right;
+    padding-bottom: 50px;
 }
 
 .about_right .fast_1{
@@ -26,10 +27,36 @@
     line-height: 26px;
     margin-top: 4px;
     color: var(--secondary-color);
+    margin-bottom: 55px;
     
 }
 
 .about_right_box > div{
-    width: 48%;
+
+    width: 45%;
     display: inline-block;
 }
+
+.about_right_box > div i{
+    font-size: 35px;
+    color: var(--primary-color);
+}
+
+.about_right_box > div span{
+    font-size: 20px;
+    color: var(--primary-color);
+    vertical-align: top;
+    padding-top: 5px;
+    margin-left: 8px;
+    font-family: var(--open-sans);
+}
+
+.about_right_box > div p{
+    color: var(--secondary-color);
+    font-family: var(--open-sans);
+    line-height: 18px;
+    padding-left: 53px;
+    margin-bottom: 37px;
+}
+
+
