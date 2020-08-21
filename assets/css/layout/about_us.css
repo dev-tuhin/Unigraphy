@@ -1,5 +1,5 @@
-.about .compacompany_photo_section{
-    width: 45%;
+.company_photo_section{
+    width: 48%;
     float: left;
 
 }
@@ -59,6 +59,86 @@
     margin-bottom: 37px;
 }
 
-{
+.company_photo{
+    width: 49%;
+    display: inline-block;
+    position: relative;
+}
+
+.company_overly{
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    opacity: ;
+}
+
+.company_photo:hover.company_overly{
+    position: absolute;
+    width: 250px;
+    height: 320px;
+    background: rgba(0,0,0,.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+ !}
+
+
+
+.company_overly a i{
+    margin-left: 100px;
+    background: var(--white-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0;
+    transition: color .4s;
+}
+
+.company_overly:hover.company_overly a i{
+    margin-left: 100px;
+    background: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 32%;
+    opacity: 1;
+}
+
+.company_overly p{
+    display: inline-block;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-family: var(--Open-sans);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    opacity: 0;
+    transition: color .4s;
     
 }
+
+.company_overly:hover.company_overly p{
+    display: inline-block;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-family: var(--Open-sans);
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+    opacity: 1;
+}
+
