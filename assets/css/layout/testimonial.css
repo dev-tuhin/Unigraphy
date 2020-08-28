@@ -1,0 +1,39 @@
+.testi{
+    text-align: center;
+    margin: 100px 0 50px 0;
+    font-family: var(--open-sans);
+}
+
+.inbox{
+    width: 31%;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #000;
+}
+
+.inbox a{
+    color: var(--secondary-color);
+    font-size: 50px;
+    box-sizing: border-box;
+    padding-bottom: 28px;
+}
+
+.inbox p{
+    width: 275px;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+
+.border_img img{
+    border-radius: 50%;
+}
+
+.border_img span h1{
+    
+    display: inline-block;
+}
+
+.border_img span p{
+    
+    float: left;
+}

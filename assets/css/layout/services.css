@@ -1,0 +1,65 @@
+.serives{
+    box-sizing: border-box;
+    margin-top: 800px;
+    background: #F5F7FC;
+    padding: 100px 0px;
+}
+.slaider{
+    background: var(--white-color);
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+.our_sarvies{
+    text-align: center;
+    margin: 20px;
+}
+
+.our_sarvies h1{
+    font-family: var(--open-sans);
+    margin: 7px;
+    font-weight: var(--fw-4);
+}
+
+.markating{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.markating h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--open-sans);
+    font-weight: var(--fw-1);
+}
+
+.markating p{
+    text-align: center;
+    font-family: var(--open-sans);
+    color: var(--secondary-color);
+    
+}
+
+.markating img{
+    width: 130px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.markating a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--white-color);
+    background: var(--primary-color);
+    font-size: 18px;
+    border-radius: 26px;
+    box-sizing: border-box;
+    padding: 10px 23px;
+    font-family: var(--open-sans);
+
+    
+}

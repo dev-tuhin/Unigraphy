@@ -1,3 +1,9 @@
+.about{
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+
 .company_photo_section{
     width: 48%;
     float: left;
